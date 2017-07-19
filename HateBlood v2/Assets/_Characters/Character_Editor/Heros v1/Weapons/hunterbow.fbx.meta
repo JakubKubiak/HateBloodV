@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 3ad55e6f49d6590429e9498fdaa77c44
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arrowMount
+    100002: b_base
+    100004: b_bottomA
+    100006: b_bottomB
+    100008: b_string
+    100010: b_topA
+    100012: b_topB
+    100014: HunterBow
+    100016: //RootNode
+    400000: arrowMount
+    400002: b_base
+    400004: b_bottomA
+    400006: b_bottomB
+    400008: b_string
+    400010: b_topA
+    400012: b_topB
+    400014: HunterBow
+    400016: //RootNode
+    4300000: HunterBow
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: HunterBow
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: b_base
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: b_bottomA
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: b_topB
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: b_bottomB
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: b_string
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arrowMount
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: hunterbow(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: b_base
+      parentName: hunterbow(Clone)
+      position: {x: 0.0000000053787894, y: 0, z: 0.118}
+      rotation: {x: 0.7071068, y: 0.0000000042160817, z: 0.70710677, w: -0.000000004216082}
+      scale: {x: 1, y: 1, z: 1}
+    - name: b_string
+      parentName: b_base
+      position: {x: 0.13394487, y: -0.11050716, z: -0.000000007450581}
+      rotation: {x: -0.31617925, y: 0.31689122, z: -0.6319455, w: -0.6326575}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000005}
+    - name: arrowMount
+      parentName: b_string
+      position: {x: -0.024425795, y: -0.000055104494, z: 0.012107767}
+      rotation: {x: 3.8043786e-23, y: 1.7763568e-15, z: -0.000000021416747, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: b_topA
+      parentName: b_base
+      position: {x: -0.123054005, y: -0.000000013034992, z: -0.000000003910399}
+      rotation: {x: 0.000000029802322, y: -0.000000034279427, z: -0.75088465, w: -0.6604334}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: b_topB
+      parentName: b_topA
+      position: {x: -0.40249726, y: -0.00000016251579, z: 0.000000006910059}
+      rotation: {x: -0, y: -0, z: 0.18137406, w: 0.98341423}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1.0000006}
+    - name: b_bottomA
+      parentName: b_base
+      position: {x: -0.123054005, y: -0.000000013034992, z: -0.000000003910399}
+      rotation: {x: 0.00000011920929, y: -0.00000006407991, z: -0.75057566, w: 0.6607845}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: b_bottomB
+      parentName: b_bottomA
+      position: {x: -0.40244904, y: 0.0000002081506, z: -0.000000029609534}
+      rotation: {x: -0.000000029802322, y: -0.000000059604645, z: -0.18224528, w: 0.9832531}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000006}
+    - name: HunterBow
+      parentName: hunterbow(Clone)
+      position: {x: -0, y: 0, z: -0.000067805435}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 0.9991141, y: 0.9991141, z: 0.9991141}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
